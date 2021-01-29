@@ -1,0 +1,172 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+  /* height: 800px; */
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+/*font-family: 'Ubuntu', sans-serif;*/
+.container-fluid {
+  padding: 100px;
+}
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.intro {}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+.icon {
+  width: 100%;
+  text-align: center;
+  color: #ef8172;
+  margin: 0 30px 20px 10px;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-header {
+  text-align: center;
+}
+
+.feature-desc {
+  color: #8f8f8f;
+  text-align: center;
+}
+
+.feature-box {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonial-text {
+  width: 50%;
+  margin: auto;
+}
+
+.carousel-item {
+  padding: 7% 5%;
+}
+
+.testimonial-images {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin-left: 5%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: relative;
+  }
+}
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding:5% 3%;
+
+}
+.love-text
+{
+  font-size: 3rem;
+  width:50%;
+  margin: 0px auto 50px;
+}
+.btn-end{
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+}
+#footer{
+  text-align: center;
+  color: grey;
+  padding: 3% ;
+}
+.logo
+{
+  margin:10px;
+}
